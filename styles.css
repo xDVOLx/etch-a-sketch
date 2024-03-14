@@ -30,3 +30,8 @@ body {
   width: auto;
   align-self: center;
 }
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
