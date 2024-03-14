@@ -18,12 +18,10 @@ body {
 
 #buttons-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-self: center;
-  width: auto;
+  width: 50%;
   margin: 2%;
-  background-color: white;
-  border: 1px solid black;
 }
 
 #change-grid-size {
