@@ -5,5 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const cell = document.createElement("div");
     cell.classList.add("cell");
     gridContainer.appendChild(cell);
+
+    cell.addEventListener("mouseover", function () {
+      this.style.backgroundColor = "black";
+    });
   };
 });
